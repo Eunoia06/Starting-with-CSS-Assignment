@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Inline Styles -->
+    <style>
+        .internal {
+            color: green;
+        }
+        .inline_internal_external {
+            color: aqua;
+        }
+    </style>
+    <!-- Linking External stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div style="color: red;">Yash Billore - Inline</div> <!-- In this we have used inline css  -->
+    <div class="internal">Yash Billore - Internal</div>
+    <div class="external">Yash Billore - External</div>
+    <div style="color: blueviolet;" class="inline_internal_external">Yash Billore - Inline + Internal + External</div>
+</body>
+</html>
